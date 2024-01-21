@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth ;
+}
+body{
+    background: #081b29;
+}
+header{
+    background-color: #081b29;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0 auto;
+    
+}
+
+
+.logo{
+    color: #009bfe;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1.7em;
+    text-decoration: none;
+    
+}
+.navbar a{
+    color: #009bfe;
+    font-size:1em ;
+    font-weight: 500;
+    margin-right: 10px;
+    transition: 0.7s;
+    text-decoration: none;
+
+}
+
+.navbar a:hover{
+    color: #601cfc;
+    transform: scale(1.1);
+    
+}
+
+section{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.main{
+    width: 80%;
+    height: 100vh;
+    background: url(/imags/home.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100% 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.main h2{
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 500;
+
+}
+
+.main h2 span{
+    color:#009bfe ;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 1em;
+    font-weight: 900;
+    letter-spacing: 1px;
+
+}
+.main h2 .and{
+    color: #fff;
+}
+
+.main h3{
+    color: #fff;
+    font-size: 1em;
+    margin:15px 0 ;
+}
+.main-btn{
+    color: #fff;
+    background-color: #009bfe;
+    font-size:1.1em ;
+    font-weight: 600;
+    display: inline-block;
+    padding:10px;
+    border-radius:8px;
+    letter-spacing: 1px;
+    margin:20px 0;
+    text-align: center;
+    transition: 0.7s;
+    text-decoration: none;
+}
+
+.main-btn:hover{
+    background-color: #601cfc;
+    transform: scale(1.1);
+    
+}
+
+.social-icons a{
+    color: #fff;
+    display: inline-block;
+    font-size: 1.3em;
+    padding-right:15px ;
+    margin-top: 10px;
+    
+
+}
+
+.section-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 80%;
+    text-align: center;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+
+
+h1 .me{
+    color: #009bfe;
+}
+
+.about-img{
+    
+    width: 193px;
+    border-radius: 27%;
+    border: 1px solid #009bfe;
+}
+
+.front-end{
+    color: #009bfe;
+}
+
+.text-about-me{
+    letter-spacing: 1px;
+    text-transform:capitalize;
+    
+}
+@media (max-width:2000px) {
+    header{
+        width: 100%;
+    }
+
+    .section-about{
+        width: 100%;
+    }
+    .text-about-me{
+        font-size: 0.8em;
+    }
+    .main{
+        width: 100%;
+
+    }
+a{
+    font-size: 0.8em;
+}
+.logo{
+    font-size: 1em;
+}
+}
